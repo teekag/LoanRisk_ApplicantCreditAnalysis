@@ -1,13 +1,14 @@
 # LoanRisk_LendingClub
 LendingClub, headquartered in San Francisco, California, is a pioneering peer-to-peer lending company in the United States. Renowned for its innovative approach, it was the first to register its offerings as securities with the Securities and Exchange Commission (SEC) and introduce loan trading on a secondary market.
 
-# Loan Analysis Problem Statement
+
 
 # Introduction
 LendingClub, headquartered in San Francisco, California, is a pioneering peer-to-peer lending company in the United States. Renowned for its innovative approach, it was the first to register its offerings as securities with the Securities and Exchange Commission (SEC) and introduce loan trading on a secondary market. As the world's largest peer-to-peer lending platform, LendingClub presents a compelling case study to explore real-world business challenges addressed through exploratory data analysis (EDA) and machine learning. This study delves into risk analytics within banking and financial services, illuminating how data insights are leveraged to mitigate financial risks associated with customer lending.
 
-Business Understanding
-As an employee of LendingClub, you're immersed in a dynamic environment focused on providing diverse loan products to urban customers. Each loan application triggers critical decisions, balancing two key risks:
+# Loan Analysis Problem Statement
+
+As an "employee" of LendingClub, you're immersed in a dynamic environment focused on providing diverse loan products to urban customers. Each loan application triggers critical decisions, balancing two key risks:
 
 1) Loss of Business: Denying a loan to a creditworthy applicant results in missed business opportunities.
 2) Financial Exposure: Approving a loan to a potentially unreliable borrower risks financial losses through defaults.
