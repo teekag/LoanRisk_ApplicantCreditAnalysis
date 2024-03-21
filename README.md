@@ -70,3 +70,10 @@ LendingClub is the largest online loan marketplace, facilitating personal loans,
 
 # Technologies Used
 - 1450.3s - GPU P100
+- pandas
+- Matplotlib
+- NumPy
+- Seaborn
+- Binary Classification - XGBOOST
+- TensorFlow
+- SciPy
