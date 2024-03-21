@@ -1,6 +1,8 @@
 # LoanRisk_LendingClub
 LendingClub, headquartered in San Francisco, California, is a pioneering peer-to-peer lending company in the United States. Renowned for its innovative approach, it was the first to register its offerings as securities with the Securities and Exchange Commission (SEC) and introduce loan trading on a secondary market.
 
+# Purpose
+The purpose of this repo is to document risk analysis performed in Kaggle with regards to consumer loan offerings. The risk analysis was perfromed to classify applicants, and predict their value to the loan issuer. This project is aimed at reducing rejected applicants who could provide value, and reduce accpeting unreliable borrower due to risk. Additionally, this project will help identify the types of features used in model predicts. The hypothesis of the feature selection challenge is that there are two broad categories - Firstly, features related to the applicant (demographic variables such as occupation, employment details etc.) Secondly, features related to loan characteristics (amount of loan, interest rate, purpose of loan etc.)
 
 
 # Introduction
