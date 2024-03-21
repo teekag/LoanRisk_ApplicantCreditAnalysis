@@ -67,3 +67,6 @@ LendingClub is the largest online loan marketplace, facilitating personal loans,
 | mort_acc             | The number of mortgage accounts.                                                                  |
 | pub_rec_bankruptcies | The number of public record bankruptcies.                                                          |
 
+
+# Technologies Used
+- 1450.3s - GPU P100
