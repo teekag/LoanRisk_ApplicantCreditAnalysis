@@ -67,6 +67,32 @@ LendingClub is the largest online loan marketplace, facilitating personal loans,
 | mort_acc             | The number of mortgage accounts.                                                                  |
 | pub_rec_bankruptcies | The number of public record bankruptcies.                                                          |
 
+# Datasets
+
+lending-club
+- accepted_2007_to_2018Q4.csv.gz
+- rejected_2007_to_2018Q4.csv.gz
+- lending-club-20072020q1
+- LCDataDictionary.xlsx
+- Loan_status_2007-2020Q3.gzip
+
+lending-club-dataset
+- lending_club_loan_two.csv
+
+lending-club-first-dataset
+- loan.csv
+- lending-club-loan-data-csv
+- LCDataDictionary.xlsx
+- loan.csv
+
+
+lendingclub-issued-loans
+- lc_2016_2017.csv
+- lc_loan.csv
+- new.html
+- us-state-codes.csv
+
+
 
 # Technologies Used
 - 1450.3s - GPU P100
