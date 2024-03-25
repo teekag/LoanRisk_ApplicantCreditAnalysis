@@ -57,13 +57,17 @@ data.shape
 # print(f"Data shape: {data.shape}")
 
 print([column for column in data.columns if data[column].dtype == object])
+
 data.term.unique()
+
 term_values = {' 36 months': 36, ' 60 months': 60}
 data['term'] = data.term.map(term_values)
 data.term.unique()
 data.drop('grade', axis=1, inplace=True)
+
 dummies = ['sub_grade', 'verification_status', 'purpose', 'initial_list_status', 
            'application_type', 'home_ownership']
+
 data = pd.get_dummies(data, columns=dummies, drop_first=True)
 data.address.head()
 data['zip_code'] = data.address.apply(lambda x: x[-5:])
