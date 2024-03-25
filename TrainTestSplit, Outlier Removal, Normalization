@@ -1,14 +1,17 @@
+#Test/Train Split 
+
 w_p = data.loan_status.value_counts()[0] / data.shape[0]
 w_n = data.loan_status.value_counts()[1] / data.shape[0]
 
 print(f"Weight of positive values {w_p}")
 print(f"Weight of negative values {w_n}")
-train, test = train_test_split(data, test_size=0.33, random_state=42)
 
+train, test = train_test_split(data, test_size=0.33, random_state=42)
 print(train.shape)
 print(test.shape)
 
 #Removing Outliers
+
 print(train[train['dti'] <= 50].shape)
 print(train.shape)
 print(train.shape)
