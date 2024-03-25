@@ -48,13 +48,16 @@ data.dropna(inplace=True)
 data.shape
 
 #Categorical Variables and Dummy Variables
-# print(f"Data shape: {data.shape}")
-# # Remove duplicate Features
-# data = data.T.drop_duplicates()
-# data = data.T
-# # Remove Duplicate Rows
-# data.drop_duplicates(inplace=True)
-# print(f"Data shape: {data.shape}")
+
+print(f"Data shape: {data.shape}")
+
+# Remove duplicate Features
+data = data.T.drop_duplicates()
+data = data.T
+
+# Remove Duplicate Rows
+data.drop_duplicates(inplace=True)
+print(f"Data shape: {data.shape}")
 
 print([column for column in data.columns if data[column].dtype == object])
 
