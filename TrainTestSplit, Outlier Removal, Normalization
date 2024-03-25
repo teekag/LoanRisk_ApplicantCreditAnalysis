@@ -1,0 +1,32 @@
+w_p = data.loan_status.value_counts()[0] / data.shape[0]
+w_n = data.loan_status.value_counts()[1] / data.shape[0]
+
+print(f"Weight of positive values {w_p}")
+print(f"Weight of negative values {w_n}")
+train, test = train_test_split(data, test_size=0.33, random_state=42)
+
+print(train.shape)
+print(test.shape)
+
+#Removing Outliers
+print(train[train['dti'] <= 50].shape)
+print(train.shape)
+print(train.shape)
+train = train[train['annual_inc'] <= 250000]
+train = train[train['dti'] <= 50]
+train = train[train['open_acc'] <= 40]
+train = train[train['total_acc'] <= 80]
+train = train[train['revol_util'] <= 120]
+train = train[train['revol_bal'] <= 250000]
+print(train.shape)
+
+#Normalizing the data
+
+X_train, y_train = train.drop('loan_status', axis=1), train.loan_status
+X_test, y_test = test.drop('loan_status', axis=1), test.loan_status
+X_train.dtypes
+scaler = MinMaxScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+
