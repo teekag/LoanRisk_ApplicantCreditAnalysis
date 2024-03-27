@@ -12,3 +12,7 @@ scores_df.hvplot.barh(
     title="ROC Scores of ML Models", xlabel="ROC Scores", 
     alpha=0.4, legend='top'
 )
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9cc72a48bf83c93285123561d6786bbeac052982
