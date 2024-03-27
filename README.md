@@ -5,9 +5,6 @@ LendingClub, headquartered in San Francisco, California, is a pioneering peer-to
 The purpose of this repo is to document risk analysis performed in Kaggle with regards to consumer loan offerings. The risk analysis was perfromed to classify applicants, and predict their value to the loan issuer. This project is aimed at reducing rejected applicants who could provide value, and reduce accpeting unreliable borrower due to risk. Additionally, this project will help identify the types of features used in model predicts. The hypothesis of the feature selection challenge is that there are two broad categories - Firstly, features related to the applicant (demographic variables such as occupation, employment details etc.) Secondly, features related to loan characteristics (amount of loan, interest rate, purpose of loan etc.)
 
 
-# Introduction
-LendingClub, headquartered in San Francisco, California, is a pioneering peer-to-peer lending company in the United States. Renowned for its innovative approach, it was the first to register its offerings as securities with the Securities and Exchange Commission (SEC) and introduce loan trading on a secondary market. As the world's largest peer-to-peer lending platform, LendingClub presents a compelling case study to explore real-world business challenges addressed through exploratory data analysis (EDA) and machine learning. This study delves into risk analytics within banking and financial services, illuminating how data insights are leveraged to mitigate financial risks associated with customer lending.
-
 # Loan Analysis Problem Statement
 
 As an "employee" of LendingClub, you're immersed in a dynamic environment focused on providing diverse loan products to urban customers. Each loan application triggers critical decisions, balancing two key risks:
